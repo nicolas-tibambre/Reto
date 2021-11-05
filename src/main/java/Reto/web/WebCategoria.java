@@ -57,6 +57,5 @@ public class WebCategoria {
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public boolean delete(@PathVariable("id") int categoriaId) {
         return servicios.deleteCategoria(categoriaId);
-    }
-    
+    }  
 }
